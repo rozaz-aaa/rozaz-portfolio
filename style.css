@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #111111;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #222;
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+button {
+    background-color: #fff;
+    color: #111;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+section {
+    padding: 40px;
+}
+.contact-btn {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-top: 15px;
+}
+.highlight {
+    color: red;
+    font-size: 40px;
+    background-color: yellow;
+}
+#djApp {
+    padding: 30px;
+    text-align: center;
+}
+
+#djApp input {
+    display: block;
+    margin: 10px auto;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+#djApp button {
+    padding: 12px 25px;
+    cursor: pointer;
+}
